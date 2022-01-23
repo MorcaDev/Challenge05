@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Sneakers company will provide you the best shoes in the whole world. Our products are remarkable, and high quality"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/icon.png">
+  <title>E-Commerce Product Page</title>
+
+  <!--responsive design-->
+  <link rel="stylesheet" href="./styles/mobile.css"/>
+  <link rel="stylesheet" media="screen and (min-width: 425px)" href="./styles/tablet.css">
+  <link rel="stylesheet" media="screen and (min-width: 768px)" href="./styles/desktop.css">
+
+  <!--font-families-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <header>
+    <nav>
+      <div class="nav-menu_brand_sections">
+        <div id="nav-menu_brand" class="nav-menu">
+          <button id="burger-open" class="menu-open" alt="to show the hamburger menu"></button>
+        </div>
+        <div class="nav-brand">
+          <img class="menu-img" src="./assets/logo.svg" alt="Our brand logo 'sneakers' "/>
+        </div>
+        <div id="nav-sections" class="nav-sections">
+          <button id="burger-close" class="sections-close"alt="to close the hamburger menu"></button>
+          <p><a href="#">Collections</a></p>
+          <p><a href="#">Men</a></p>
+          <p><a href="#">Women</a></p>
+          <p><a href="#">About</a></p>
+          <p><a href="#">Contact</a></p>
+        </div>
+      </div>
+      <div id="nav-cart_user" class="nav-cart_user">
+        <button id="cart-open" class="cart" alt="to see your item in the cart"></button>
+        <button class="user" alt="to see you user account"></button>
+        <div id="checkbox" class="checkbox">
+          <div class="checkbox-title">
+            <h3>Cart</h3>
+          </div>
+          <div id="checkbox-contain" class="checkbox-contain">
+            <h3 id="emptyMessage">Your cart is empty</h3>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="previewContainer" class="main-preview">
+      
+      <img id="imagePreview" class="preview--image"  src="./assets/image-product-1.jpg" alt="preview of the product"/>
+      
+      <button id="leftButton" class="preview--leftB" alt="to see the previous image"></button>
+      <button id="rightButton" class="preview--rightB" alt="to see the next image"></button>
+
+      <div id="optionsPreview" class="main-options">
+        <button id="pv1" class="options1 hover"></button>
+        <button id="pv2" class="options2 hover"></button>
+        <button id="pv3" class="options3 hover"></button>
+        <button id="pv4" class="options4 hover"></button>
+      </div>
+
+    </div>
+    <div class="main-information">
+      <div class="main-description">
+        <h3>SNEAKER COMPANY</h3>
+        <h2>Fall Limited Edition <br/>Sneakers</h2>
+        <p>These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+      </div>
+      <div class="main-price">
+        <div class="price-currentPrice">
+          <h3>$125.00</h3>
+          <span>50%</span>
+        </div>
+        <div class="price-oldPrice">
+          <p>$250.00</p>
+        </div>
+      </div>
+      <div class="main-adding">
+        <div class="adding-quantity">
+          <button id="buttonLess" class="quantity-less" alt="to remove 1 quantity"></button>
+          <p id="boxNumber" class="quantity-number">1</p>
+          <button id="buttonMore" class="quantity-more" alt="to add 1 quantity"></button>
+        </div>
+        <div class="adding-add">
+          <button id="buttonAdd" alt="to add in your cart">Add to cart</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/MorcaDev">MorcaDev</a>.
+  </div>
+  
+  <div id="previewContainer_MI" class="invisible">
+    
+    <button id="closeModal_MI" class="preview--closeB_MI">×</button>
+
+    <img id="imagePreview_MI" class="preview--image_MI"  src="./assets/image-product-1.jpg" alt="preview of the product in 'modal form' (zoom it)"/>
+    
+    <div id="optionsPreview_MI" class="main-options_MI">
+      <button id="pv1_MI" class="options1_MI hover"></button>
+      <button id="pv2_MI" class="options2_MI hover"></button>
+      <button id="pv3_MI" class="options3_MI hover"></button>
+      <button id="pv4_MI" class="options4_MI hover"></button>
+    </div>
+
+  </div>
+
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="./scripts/script.js"></script>
+</body>
+</html>

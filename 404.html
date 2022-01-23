@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="404 page not found for snickers company"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/icon.png">
+  <title>404 Error!</title>
+
+  <!--responsive design-->
+  <link rel="stylesheet" href="./styles/mobile404.css"/>
+  <link rel="stylesheet" media="screen and (min-width: 425px)" href="./styles/tablet404.css">
+  <link rel="stylesheet" media="screen and (min-width: 768px)" href="./styles/desktop404.css">
+
+  <!--font-families-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="nav-menu_brand_sections">
+        <div id="nav-menu_brand" class="nav-menu">
+          <button id="burger-open" class="menu-open" alt="to show the hamburger menu"></button>
+        </div>
+        <div class="nav-brand">
+          <img class="menu-img" src="./assets/logo.svg" alt="Our brand logo 'sneakers' "/>
+        </div>
+        <div id="nav-sections" class="nav-sections">
+          <button id="burger-close" class="sections-close"alt="to close the hamburger menu"></button>
+          <p><a href="https://morcadev.github.io/Challenge05/">Collections</a></p>
+          <p><a href="https://morcadev.github.io/Challenge05/">Men</a></p>
+          <p><a href="https://morcadev.github.io/Challenge05/">Women</a></p>
+          <p><a href="https://morcadev.github.io/Challenge05/">About</a></p>
+          <p><a href="https://morcadev.github.io/Challenge05/">Contact</a></p>
+        </div>
+      </div>
+      <div id="nav-cart_user" class="nav-cart_user">
+        <button id="cart-open" class="cart" alt="to see your item in the cart"></button>
+        <button class="user" alt="to see you user account"></button>
+        <div id="checkbox" class="checkbox">
+          <div class="checkbox-title">
+            <h3>Cart</h3>
+          </div>
+          <div id="checkbox-contain" class="checkbox-contain">
+            <h3 id="emptyMessage">Your cart is empty</h3>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <img class="main-image" src="./assets/404_A.jpg" alt="404 error (page not found)"/>
+    <div class="main-container">
+      <div class="container-text">
+        <h1 class="title"><span class="typed">We still<br/>working on it</span></h1>
+      </div>
+      <button class="container--button">
+        Return to Home
+      </button>
+    </div>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/MorcaDev">MorcaDev</a>.
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="./scripts/script404.js"></script>
+</body>
+</html>

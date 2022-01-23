@@ -1,0 +1,31 @@
+/*/////////////////////////
+           HEADER
+/////////////////////////*/
+.nav-sections p{
+    margin: 10px 0px;
+    font-size: 1.4rem;
+}
+.cart{
+    width: 20px;
+    height: 20px;
+}
+.user{
+    width: 28px;
+    height: 28px;
+}
+    .user:hover{
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        border: solid 1.5px var(--orange);
+    }
+
+
+/*/////////////////////////
+            MAIN
+/////////////////////////*/
+    .main-image{
+        min-height: 439px;
+        max-height: none;
+        height: calc(100vh - 115px);
+    }

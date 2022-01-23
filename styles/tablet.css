@@ -1,0 +1,83 @@
+/*/////////////////////////
+           HEADER
+/////////////////////////*/
+.nav-sections p{
+    margin: 10px 0px;
+    font-size: 1.4rem;
+}
+.cart{
+    width: 20px;
+    height: 20px;
+}
+.user{
+    width: 28px;
+    height: 28px;
+}
+    .user:hover{
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        border: solid 1.5px var(--orange);
+    }
+
+
+/*/////////////////////////
+            MAIN
+/////////////////////////*/
+
+    .main-preview{
+        height: auto;
+    }
+        .preview--image{
+            height: 380px;
+        }
+    .main-information{
+        width: 100%; 
+        height: auto;
+        margin: 0px auto;
+        margin-top: 30px;
+    }
+        .main-description{
+            width: 90%;
+            height: auto;
+            margin: 0 auto;
+        }
+            .main-description h3{
+                margin: 0px;
+                font-size: 1.2rem;
+            }
+            .main-description h2{
+                margin-top: 12px;
+                margin-bottom: 20px;
+                font-size: 2.8rem;
+            }
+            .main-description p{
+                font-size: 1.3rem;
+                margin-bottom: 24px;
+                line-height: 2rem;
+            }
+        .main-price{
+            width: 90%;
+            margin: 0px auto;
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+            justify-content: flex-start;
+        }
+            .price-currentPrice{ 
+                width: 100%;
+            }
+                .price-currentPrice h3{
+                    font-size: 1.8rem;
+                }
+                .price-currentPrice span{
+                    padding: 2px 6px;
+                    font-size: 1.2rem;
+                }
+            .price-oldPrice{ 
+                width: 100%; 
+                margin-top: 7px;
+            }
+                .price-oldPrice p{
+                    font-size: 1.2rem;
+                }
