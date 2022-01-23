@@ -1,6 +1,6 @@
 # Challenge05
 
-![404]()
+![404](https://github.com/MorcaDev/Challenge05/blob/master/assets/icon.png)
 
 ### *General Information* 📚:
 ___
