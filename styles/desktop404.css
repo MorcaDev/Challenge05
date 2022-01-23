@@ -78,7 +78,6 @@ main{
                 font-weight: bold;
                 word-spacing: 6px;
             }
-        .container--button{
-            padding: 12px 18px;
+        .container--button a{
             font-size: 1.6rem;
         }
